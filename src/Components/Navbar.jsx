@@ -1,12 +1,12 @@
 import React from 'react'
 import '../styles/Navbar.css'
 import menu_icon from '../assets/menu.png'  
-import logo from '../assets/logo.png'
+import logo from '../assets/yout2.png'
 import search_icon from '../assets/search.png'
 import upload_icon from '../assets/upload.png'
 import more_icon from '../assets/more.png'
 import notification_icon from '../assets/notification.png'
-import profile_icon from '../assets/jack.png'
+import profile_icon from '../assets/simon.png'
 import { Link } from 'react-router-dom'
 
 

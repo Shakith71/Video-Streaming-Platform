@@ -12,7 +12,9 @@ nav{
   margin-right: 25px;
 }
 .nav-left .logo{
-  width: 130px;
+  width: 100px;
+  
+
 }
 .nav-middle .search-box{
   border: 1px solid #ccc;
@@ -21,13 +23,13 @@ nav{
   border-radius: 25px;
 }
 .nav-middle .search-box input{
-  width: 100px;
+  width: 200px;
   border:0;
   outline:0;
   background: transparent;
 }
 .nav-middle .search-box img{
-  width: 15px;
+  width: 20px;
 }
 .nav-right img{
   width: 25px;
