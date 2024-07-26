@@ -13,7 +13,7 @@ const Feed = ({category}) => {
   const fetchData  = async () => {
     const videoList_url = `https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=150&regionCode=IN&videoCategoryId=${category}&key=${API_KEY}`
     await fetch(videoList_url).then(response=>response.json()).then(data=>setData(data.items))
-  }
+  } 
   const fetchOtherData = async () => {
     //Fetching channel data
     const channelData_url =  `https://youtube.googleapis.com/youtube/v3/channels?part=snippet%2CcontentDetails%2Cstatistics&id=${data.snippet.channelId}&key=${API_KEY}`;
